@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Project</title>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+  <div id="app">
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">
+            <span class="text-danger">
+              <strong>MARVEL</strong>
+            </span> /
+            <span class="text-primary">Chatbot</span>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-3">
+          <ul class="list-group list-group-flush">
+            <li class="bg-dark text-light list-group-item d-flex justify-content-between align-items-center">
+              <img width="50" class="rounded-circle border border-white border-2"
+                src="https://avatarfiles.alphacoders.com/149/149041.jpg" />
+              spiderMan
+              <span class="badge bg-primary rounded-pill">0</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-9">
+          <section class="messages-history">
+            <!-- Message 1 -->
+            <div class="row mt-2">
+              <div class="col-6">
+                <div class="card text-bg-light">
+                  <h5 class="card-header">
+                    <img width="20%" src="https://avatarfiles.alphacoders.com/149/149041.jpg"
+                      class="rounded-circle img-thumbnail" alt="...">
+                    Spiderman
+                  </h5>
+                  <div class="card-body">
+                    <h5 class="card-title">12/01/23</h5>
+                    <p class="card-text">Hello</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <!-- Message 2 -->
+            <div class="row mt-2">
+              <div class="col-6"></div>
+              <div class="col-6">
+                <div class="card text-bg-light">
+                  <h5 class="card-header">
+                    <img width="20%" src="https://avatarfiles.alphacoders.com/149/thumb-149117.jpg"
+                      class="rounded-circle img-thumbnail" alt="...">
+                    Cyril
+                  </h5>
+                  <div class="card-body">
+                    <h5 class="card-title">12/01/23</h5>
+                    <p class="card-text">Hello ca va ?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="typing mt-3">
+            <div class="row">
+              <div class="col-12">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Message">
+                  <button class="btn btn-primary" type="button">Send</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-danger text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
